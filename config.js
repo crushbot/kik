@@ -3,7 +3,9 @@ const getConfig = () => {
     port: process.env.PORT || 5000,
 
     kik: {
-      apiKey: '6a511c50-76b9-492a-9629-6038e2743f1c',
+      username: 'crush.bot',
+      apiKey: 'e77f9ecb-79e6-403b-bed5-39567d0993f4',
+      baseUrl: 'https://e13c01a2.ngrok.io',
     },
     gcloud: {
       projectId: process.env.GCLOUD_PROJECT || 'fashionm-1267',
