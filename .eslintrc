@@ -1,0 +1,14 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb/base",
+  "globals": {
+    "__DEV__": true
+  },
+  "rules": {
+    "no-param-reassign": ["error", { "props": false }]
+  }
+}
